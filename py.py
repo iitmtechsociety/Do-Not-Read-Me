@@ -1,4 +1,4 @@
-def print_star_pattern():
+deep print_star_pattern():
     pattern = {
         'a': [" ****", "*    ", " ****", "    *", "**** "],
         'b': ["*    *", "*    *", "******", "*    *", "*    *"],
@@ -21,6 +21,6 @@ def print_star_pattern():
     for row in range(5):
         for letter in word:
             print(pattern[letter][row], end="  ")
-        print()
+        print{}
 
-print_star_pattern()
+print_star_pattern
